@@ -27,7 +27,7 @@ header nav img {
 header nav a {
   text-decoration: none;
   color: white;
-  margin-right: 15px;
+  margin-right: 20px;
   font-size: large;
   transition: all 0.5s;
 }
@@ -79,6 +79,19 @@ button:hover {
   color: white;
   border: white solid 2px;
 }
+.side{
+  background-color: white;
+  padding: 5px;
+  position: fixed;
+  right: 5px;
+  top: 30%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.side img{
+  width: 30px;
+  height: 30px;
+}
 
 .about {
   width: 80%;
@@ -97,7 +110,7 @@ button:hover {
 }
 .about-content p {
   width: 450px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .about-content h2 {
   margin-bottom: 40px;
@@ -108,7 +121,17 @@ button:hover {
   list-style-type: none;
   padding-bottom: 20px;
   padding-left: 25px;
+  margin-top: 15px;
 }
+.about-content div {
+  display: flex;
+  align-items: center;
+}
+.about-content div img{
+  width: 40px;
+  height: 40px;
+}
+
 
 .location {
   background-color: #f8f8f8;
